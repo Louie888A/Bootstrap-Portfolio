@@ -55,6 +55,15 @@ p {
 nav div ul li {
   font-size: 20px;
 }
+#about2img {
+  border-radius: 50px;
+}
+#exp {
+  background-image: url("/image/pexels-oleksandra-zelena-19251002.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
 h1 {
   padding-top: 50%;
   text-align: left;
