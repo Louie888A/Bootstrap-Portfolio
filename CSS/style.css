@@ -55,15 +55,37 @@ p {
 nav div ul li {
   font-size: 20px;
 }
-#about2img {
-  border-radius: 50px;
+#aboutme {
+  
 }
+#about2img {
+  border-radius: 100%;
+}
+
 #exp {
   background-image: url("/image/pexels-oleksandra-zelena-19251002.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.5;
+  display: flex;
 }
+#exp1 h1 {
+  padding: 30px 20px;
+  color:blue;
+  font-weight: 900;
+  position: relative;
+  font-size: 20px;
+  font-family: Helvetica;
+  
+}
+#exp1 p {
+  padding: 20px 400px 500px 20px;
+  color: black;
+  font-weight: 900;
+  font-size: 15px;
+  display:inline-block;
+}
+
 h1 {
   padding-top: 50%;
   text-align: left;
@@ -76,6 +98,6 @@ p {
 }
 button {
   position: relative;
-  margin-top: 33%;
+  margin-top: 10%;
   width: 100%;
 }
