@@ -134,3 +134,44 @@ height: 200px;
 .project {
   margin: 5vh 5vw;
 }
+#footer {
+  background-color: black;
+  height: 15vh;
+  width: 100%;
+  margin:  20px 0px 0px 0px;
+  padding: 0px -20px 0px 40px;
+  
+
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100px;
+  width: 50px;
+  margin: 5px 2px;
+}
+#contactinfo {
+  color: beige;
+}
+#contactinfo ul {
+  margin-top: 20px;
+  margin-right: 0px;
+  display: flex;
+  padding: 10px 0px 0px 100px;
+}
+#contactinfo ul li {
+  padding: 0px 0px 10px 10px;
+  margin-right: 50px;
+  list-style: none;
+  line-height: 1.5em;
+
+}
+#contactinfo ul li a {
+  text-decoration: none;
+}
