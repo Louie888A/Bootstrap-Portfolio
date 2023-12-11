@@ -59,11 +59,11 @@ p {
   line-height: 1vh;
 }
 #nav1 {
-  font-size: 30px;
+  font-size: 25px;
   padding-top: 5vh;
 }
 nav div ul li {
-  font-size: 20px;
+  font-size: 15px;
 }
 /*-- style about me --*/
 #aboutme {
@@ -74,7 +74,7 @@ nav div ul li {
   height: 100%;
 }
 #aboutme h1 {
-  margin: 200px 450px 0px 0px;
+  margin: 160px 450px 0px 0px;
   color: beige;
   letter-spacing: 5px;
 }
@@ -91,8 +91,8 @@ nav div ul li {
   border-width: 1px;
   border-color: beige;
   border-style: solid;
-  height: 200px;
-  font-size: 25px;
+  height: 250px;
+  font-size: 20px;
   color: beige;
   text-align: center;
   padding-top: 10vh;
@@ -101,6 +101,10 @@ nav div ul li {
 /*-- style experience --*/
 #exp {
   background-color: beige;
+  width: 100%;
+  height: 60vh;
+}
+#exp1 {
   width: 100%;
   height: 100%;
 }
@@ -111,6 +115,7 @@ nav div ul li {
   font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   letter-spacing: 5px;
   margin-top: 50px;
+  margin-left: 10px;
 }
 #exp1 p {
   color: black;
@@ -119,30 +124,21 @@ nav div ul li {
   font-family: "Muli", "Helvetica", "Arial", "sans-serif";
   text-align: left;
   margin-top: 50px;
-  display: block;
-}
-#exp2 {
-  background-image: url("../image/workingexp.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 5vh;
-  border-style: solid;
-  border-color: black;
-  border-radius: 8px;
-  border-width: 2px;
-  height: 80vh;
+  margin-left: 10px;
 }
 /*-- style project --*/
 #project {
-  margin: 5vh 5vw;
+  width: 100%;
+  height: 100vh;
+  background-color: beige;
 }
 /*-- style footer --*/
 #footer {
   background-color: black;
-  height: 15vh;
+  height: 10vh;
   width: 100%;
-  margin: 20px 0px 0px 0px;
-  padding: 0px -20px 0px 40px;
+  margin: 0px 0px 0px 0px;
+  padding: 50px -20px 0px 40px;
 }
 .fa:hover {
   opacity: 0.7;
