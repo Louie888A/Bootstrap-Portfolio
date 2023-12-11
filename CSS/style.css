@@ -107,24 +107,25 @@ height: 200px;
   font-size: 30px;
   font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   letter-spacing: 5px;
-  margin-top: 80px;
+  margin-top: 100px;
   
 }
 #exp1 p {
   color: black;
   font-weight: 300;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Muli", "Helvetica", "Arial", "sans-serif";
   text-align: left;
   margin-top: 50px;
 }
 #exp2 {
-  background-image: url("/image/pexels-pixabay-270360.jpg");
+  background-image: url("/image/workingexp.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 5vw;
+  margin-top: 5vh;
   border-style:solid;
   border-color: green;
   border-radius: 5%;
   border-width: 2px;
+  height: 80vh;
 }
