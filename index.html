@@ -49,165 +49,124 @@
     <!--html header-->
     <header>
       <!--html nav-->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" id="nav1" href="#">SL LOUIE</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse justify-content-end navbar-collapse"
-            id="navbarNavDropdown"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#aboutme">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#exp">Experience</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  My Project
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#project1">Project 1</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#project2">project 2</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#project3">project 3</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Louie S L</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#aboutme">ABOUT ME</a>
+            <a class="nav-item nav-link" href="#exp">EXPERIENCE</a>
+            <a class="nav-item nav-link" href="#project">PROJECTS</a>
           </div>
         </div>
       </nav>
     </header>
+    <main>
     <!--html about me-->
-    <section id="aboutme" class="p-3 bg-success-subtle">
-      <div class="container-fluid">
+      <section id="aboutme" class="p-3 bg-success-subtle">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 text-center justify-content-center" id="about1">
+              <h1>About Me >>></h1>
+              <img id="about2img" src="./image/mypic.jfif" alt="my picture" />
+              <p>
+                I'm a Web Developer, apart of coding. I've interested in any
+                innovative TECH products, also Science Fiction, Horror Action &
+                Adventure Movie
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--html experience-->
+      <section id="exp">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12" id="exp1">
+              <h2>EXPERIENCE >>></h2>
+              <p id="aboutmep">
+                I have 5 years in an online payment company as Acquisition BD
+                Manager - PayPal, that bring me a lot of online knowledge, known
+                that from front end to back end, API to User experience.
+              </p>
+              <p>
+                After PayPal, I work into offline payment company for 3 years, it
+                leads me to know POS system from hardware to software, UI and
+                backend database.
+              </p>
+              <p>
+                I've leant a lot from above two experiences for Online & Offline,
+                and I,ve realized it's totally different.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--html project-->
+      <section id="project">
+        <div class="container-fluid">
         <div class="row">
-          <div class="col-md-12 col-sm-12 text-center justify-content-center" id="about1">
-            <h1>About Me >>></h1>
-            <img id="about2img" src="./image/mypic.jfif" alt="my picture" />
-            <p>
-              I'm a Web Developer, apart of coding. I've interested in any
-              innovative TECH products, also Science Fiction, Horror Action &
-              Adventure Movie
-            </p>
+          <div class="col-sm-12 col-md-4 g-4">
+            <div class="card">
+              <img
+                src="./image/seo.jpg"
+                class="card-img-top"
+                alt="Project Picture1"
+              />
+              <div class="card-body" id="project1">
+                <h5 class="card-title">Project 1 - SEO Optimization</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <hr>
-    <!--html experience-->
-    <section id="exp">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-12" id="exp1">
-            <h2>EXPERIENCE >>></h2>
-            <p id="aboutmep">
-              I have 5 years in an online payment company as Acquisition BD
-              Manager - PayPal, that bring me a lot of online knowledge, known
-              that from front end to back end, API to User experience.
-            </p>
-            <p>
-              After PayPal, I work into offline payment company for 3 years, it
-              leads me to know POS system from hardware to software, UI and
-              backend database.
-            </p>
-            <p>
-              I've leant a lot from above two experiences for Online & Offline,
-              and I,ve realized it's totally different.
-            </p>
+          <div class="col-sm-12 col-md-4 g-4">
+            <div class="card">
+              <img
+                src="./image/pexels-pixabay-270360.jpg"
+                class="card-img-top"
+                alt="Project Picture2"
+              />
+              <div class="card-body" id="project2">
+                <h5 class="card-title">Project 2 - Information Site</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <hr>
-    <!--html project-->
-    <section id="project">
-      <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 col-md-4 g-4">
-          <div class="card">
-            <img
-              src="./image/seo.jpg"
-              class="card-img-top"
-              alt="Project Picture1"
-            />
-            <div class="card-body" id="project1">
-              <h5 class="card-title">Project 1 - SEO Optimization</h5>
-              <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
+          <div class="col-sm-12 col-md-4 g-4">
+            <div class="card">
+              <img
+                src="./image/pexels-realtoughcandycom-11035481.jpg"
+                class="card-img-top"
+                alt="Project Picture3"
+              />
+              <div class="card-body" id="project3">
+                <h5 class="card-title">Project 3 - Json</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 g-4">
-          <div class="card">
-            <img
-              src="./image/pexels-pixabay-270360.jpg"
-              class="card-img-top"
-              alt="Project Picture2"
-            />
-            <div class="card-body" id="project2">
-              <h5 class="card-title">Project 2 - Information Site</h5>
-              <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4 g-4">
-          <div class="card">
-            <img
-              src="./image/pexels-realtoughcandycom-11035481.jpg"
-              class="card-img-top"
-              alt="Project Picture3"
-            />
-            <div class="card-body" id="project3">
-              <h5 class="card-title">Project 3 - Json</h5>
-              <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <hr>
+      </section>
+    </main>
     <!--html footer-->
     <footer id="footer">
       <section>
-        <div class="contain-fluid">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-md-6 col-sm-6 col-lg-6" id="social">
               <a href="#" class="fa fa-facebook"></a>

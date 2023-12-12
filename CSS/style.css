@@ -225,7 +225,6 @@ nav div ul li {
     font-weight: 300;
   }
   #exp {
-    height: 90vh;
     margin: 0px;
   }
   #exp h2 {
@@ -238,8 +237,8 @@ nav div ul li {
   }
   #footer {
     height: 15vh;
-    position: relative;
-    margin: 1200px 0px 0px 0px;
+    position: static;
+    margin: 0px 0px 0px 0px;
     padding-top: 0px;
     justify-content: center;
     align-items: center;
