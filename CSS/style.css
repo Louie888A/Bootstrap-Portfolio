@@ -5,6 +5,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 body {
@@ -50,14 +51,11 @@ p {
 }
 /*-- style nav --*/
 #nav1 {
-  padding-left: 2vw;
-  height: 10vh;
+  padding-left: 1vw;
+  height: 8vh;
   font-size: 20px;
   font-size: 25px;
-  padding-top: 5vh;
-}
-#bar {
-  height: 8vh;
+  padding-top: 3vh;
   line-height: 1vh;
 }
 nav div ul li {
@@ -69,7 +67,7 @@ nav div ul li {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 #aboutme h1 {
   margin: 160px 450px 0px 0px;
@@ -129,24 +127,18 @@ nav div ul li {
   width: 100%;
   height: 90vh;
   background-color: beige;
+  position: relative;
 }
 /*-- style footer --*/
 #footer {
   background-color: black;
   height: 20vh;
   width: 100%;
-}
-
-#contactinfo {
-  padding: 20px 20px;
-  color: beige;
-}
-#contactinfo ul {
-  margin-top: 20px;
-  margin-right: 0px;
+  position: absolute;
+  margin: 0px 0px 0px 0px;
   display: flex;
-  padding: 10px 0px 0px 100px;
-  float: right;
+  align-items: center;
+  justify-content: center;
 }
 #contactinfo ul li {
   margin-right: 60px;
@@ -159,7 +151,7 @@ nav div ul li {
   text-decoration: none;
 }
 #social {
-  padding: 20px 20px;
+  padding: 0px 0px;
 }
 .fa:hover {
   opacity: 0.7;
@@ -190,7 +182,10 @@ nav div ul li {
   text-decoration: none;
 }
 /* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 992px) {
+@media only screen and (max-width: 992px) {
+  body {
+    background-color: lightblue;
+  }
   #nav1 {
     padding-top: 3vh;
   }
@@ -216,8 +211,55 @@ nav div ul li {
 }
 
 /* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   body {
-    background-color: olive;
+    background-color: lightblue;
+  }
+  #aboutme h1 {
+    margin-top: 150px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  #aboutme p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  #exp {
+    height: 90vh;
+    margin: 0px;
+  }
+  #exp h2 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  #exp p {
+    font-size: 15px;
+    font-weight: 100;
+  }
+  #footer {
+    height: 15vh;
+    position: relative;
+    margin: 1200px 0px 0px 0px;
+    padding-top: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .fa {
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 30px;
+    margin: 15px 0px 0px 0px;
+  }
+  #contactinfo ul {
+    margin: 0px 0px 0px 0px;
+  }
+  #contactinfo ul li {
+    width: 100%;
+    font-size: 5px;
   }
 }
