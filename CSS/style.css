@@ -58,6 +58,12 @@ p {
   padding-top: 3vh;
   line-height: 1vh;
 }
+.navleft {
+  margin-left: 2vw;
+}
+.navr {
+  margin-right: 2vw;
+}
 nav div ul li {
   font-size: 15px;
 }
@@ -102,7 +108,7 @@ nav div ul li {
 }
 #exp1 {
   width: 100%;
-  height: 100%;
+  height: 80vh;
 }
 #exp1 h2 {
   color: rgb(28, 5, 71);
@@ -134,7 +140,7 @@ nav div ul li {
   background-color: black;
   height: 20vh;
   width: 100%;
-  position: absolute;
+  position: static;
   margin: 0px 0px 0px 0px;
   display: flex;
   align-items: center;
@@ -226,6 +232,7 @@ nav div ul li {
   }
   #exp {
     margin: 0px;
+    height: 80vh;
   }
   #exp h2 {
     font-size: 20px;
